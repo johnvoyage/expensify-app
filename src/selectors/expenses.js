@@ -1,5 +1,4 @@
 import moment from 'moment';
-import { isMoment } from "../../node_modules/moment";
 
 const getVisibleExpenses = (expenses, { text, sortBy, startDate, endDate }) => {
   return expenses.filter((expense) => {
